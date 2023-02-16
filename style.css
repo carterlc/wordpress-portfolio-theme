@@ -1,0 +1,173 @@
+/*
+Theme Name:   Twenty Twenty Child By Carter Clifford
+Theme URI:    http://example.com/twenty-fifteen-child/
+Description:  Twenty Twenty One Child Theme
+Author:       Carter Clifford
+Author URI:   carterlc.ca
+Template:     twentytwentyone
+Version:      1
+*/
+
+
+h2.alignwide has-text-align-wide {
+font-family: dystopian, sans-serif, monospace !important;
+font-weight: 700 !important;
+font-style: normal;
+}
+h2{
+    font-family: dystopian, sans-serif, monospace !important;
+    font-style: normal;
+    font-weight: 400 !important;
+}
+
+.site-header has-logo has-title-and-tagline has-menu{
+    width:150px;
+    height:150px;
+}
+#masthead img{
+   width:100px;
+   height:100px; 
+}
+nav#site-navigation{
+    margin-left:0;
+}
+#masthead div{
+    padding:0;
+    z-index: 1000;
+}
+#colophon ul li{
+    z-index: 999;
+}
+#colophon div{
+    z-index: 998;
+}
+div.entery-content img{
+    z-index: 2100!important;
+}
+.wp-block-image img{
+    z-index: 1100!important;
+}
+div.wp-block-button{
+    z-index: 1100!important;
+}
+
+h1.entry-title{
+    font-family: dystopian, sans-serif, monospace !important;
+}
+h1.page-title{
+    font-family: dystopian, sans-serif, monospace !important;
+}
+
+/* Media query */
+@media only screen and (max-width:1000px) {
+    main div.about-section{
+        flex-direction:column;
+        align-items: center;
+        margin-left:100px;
+        margin-right:100px;
+    }
+    main div.about-section img{
+    border-style:none;
+    margin-bottom: 50px;
+    padding-right:0px;
+    }
+    main div.about-section p{
+        margin-left:0px;
+        }
+    div.contact-section{
+            margin-left:100px;
+            margin-right:100px;
+            /* flex-wrap: wrap; */
+    }
+    div.contact-info{
+            margin-left:50px;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1600px) {
+    main div.about-section{
+        flex-direction:row;
+    }
+    main div.about-section img{
+        width:400px;
+        height:500px;
+
+    }
+    main div.about-section{
+        margin-left:150px;
+        margin-right:150px;
+    }
+    main div.about-section p{
+    margin-left:50px;
+    }
+    div.contact-section{
+        margin-left:200px;
+        margin-right:200px;
+    }
+    div.contact-info{
+        margin-left:75px;
+    }
+}
+@media only screen and (min-width:1900px) {
+    main div.about-section{
+        flex-direction:row;
+    }
+}
+
+.contact-section{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    margin-left:350px;
+    margin-right:350px;
+}
+.contact-info{
+    margin-left:150px;
+}
+
+.contact-section ul{
+list-style: none;
+}
+.left-sidebar{
+    border-right: solid white;
+    padding-right:10%;
+}
+.current-menu-item a:first-child{
+    text-decoration: none!important;
+    font-weight: bold;
+}
+#primary-menu-list li a, #primary-menu-list li a:hover, #primary-menu-list li a:focus
+{
+	text-decoration: none;
+	color: white;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+#primary-menu-list li a:hover,#primary-menu-list li a:focus
+{
+	color: #fff;
+	text-shadow: -1px 1px 10px #ffc, 1px -1px 10px #fff;
+}
+
+aside.left-sidebar{
+    z-index: 1020 !important;
+}
+#menu-secondary-menu li a, #menu-secondary-menu li a:hover, #menu-secondary-menu li a:focus
+{
+	text-decoration: none;
+	color: white;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+#menu-secondary-menu li a:hover,#menu-secondary-menu li a:focus
+{
+	color: #fff;
+	text-shadow: -1px 1px 10px #ffc, 1px -1px 10px #fff;
+}
