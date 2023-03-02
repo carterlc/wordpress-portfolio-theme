@@ -27,7 +27,7 @@ div.about-section{
 
 }
 </style>
-<div id="grainy-texture">
+
 <?php
 	get_header();
 /* Start the Loop */

@@ -9,16 +9,19 @@ Version:      1
 */
 
 
-h2.alignwide has-text-align-wide {
-font-family: dystopian, sans-serif, monospace !important;
-font-weight: 700 !important;
-font-style: normal;
-}
 h2{
     font-family: dystopian, sans-serif, monospace !important;
     font-style: normal;
     font-weight: 400 !important;
+    background-color: red;
+    font-size:clamp(6rem, 30vw + 1rem, 20rem) !important;
 }
+
+.entry-content h2:nth-child(2) {
+    background-color: blue;
+    font-size:clamp(1rem, 5vw + 1rem, 4rem) !important;
+}
+
 
 .site-header has-logo has-title-and-tagline has-menu{
     width:150px;

@@ -10,7 +10,7 @@
 	<?php the_field('email'); ?>;
 }
 </style>
-<div id="grainy-texture">
+
 <?php
 get_header();
 

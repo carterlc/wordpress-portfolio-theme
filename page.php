@@ -9,7 +9,6 @@
  * @since Twenty Twenty-One 1.0
  */
 ?>
-<div id="grainy-texture">
 <?php
 get_header();
 

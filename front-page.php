@@ -14,12 +14,14 @@
  * @since Twenty Twenty-One 1.0
  */
 ?>
-<div id="grainy-texture">
+
 <?php
 get_header();
 
 
+?>Front page.php look here
 
+<?php
 /* Start the Loop */
 while ( have_posts() ) :
 	the_post();
