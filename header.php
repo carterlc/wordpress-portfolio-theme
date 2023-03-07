@@ -13,7 +13,7 @@
 
 ?>
 <!doctype html>
-<div id="grainy-texture">
+<!-- <div id="grainy-texture"> -->
 <html <?php language_attributes(); ?> <?php twentytwentyone_the_html_classes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />

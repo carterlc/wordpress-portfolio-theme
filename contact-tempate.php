@@ -36,9 +36,7 @@ while ( have_posts() ) :
 <aside class="left-sidebar">
     <?php dynamic_sidebar( 'left-sidebar' ); ?>    
 </aside>
-<div class="contact-info">
 <p><?php the_field('contact_info');?></p>
-</div>
 </div>
 <p><?php the_field('email');?></p>
 <?php

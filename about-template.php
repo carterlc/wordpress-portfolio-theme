@@ -5,27 +5,7 @@
 */
 ?>
 <style>
-
-div.about-section{
 	<?php the_field('profile_picture'); ?>;
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
-	margin-left:350px;
-	margin-right:350px;
-}
-
-.about-section img{
-	width:500px;
-	height:600px;
-	object-fit:cover;
-	border-right: solid white;
-	padding-right:50px;
-}
-.about-section p{
-	margin-left:100px;
-
-}
 </style>
 
 <?php
@@ -33,10 +13,7 @@ div.about-section{
 /* Start the Loop */
 while ( have_posts() ) :
 	the_post();
-
 	// get_template_part( 'template-parts/content/content-single' );
-
-
 	?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
@@ -45,11 +22,12 @@ while ( have_posts() ) :
 	<?php twenty_twenty_one_post_thumbnail(); ?>
 </header><!-- .entry-header -->
 </article>
-
+<div class="about-container">
 	<div class="about-section">
 	<img src="<?php the_field('profile_picture');?>" alt="profile pic">
 	<p><?php the_field('profile_description'); ?></p>
 	</div>
+</div>	
 <?php
 
 endwhile; // End of the loop.
