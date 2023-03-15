@@ -8,7 +8,7 @@ Template:     twentytwentyone
 Version:      1
 */
 
-#grainy-texture > * { 
+#grainy-texture>* {
     position: relative !important;
     z-index: 10 !important;
 }
@@ -24,7 +24,7 @@ div.entry-content h2:nth-child(1) {
 }
 
 div.entry-content h2:nth-child(2) {
-    font-size: clamp(1rem, 5vw + 1rem, 4rem) !important;
+    font-size: clamp(1rem, 4vw + 1rem, 4rem) !important;
 }
 
 .site-header has-logo has-title-and-tagline has-menu {
@@ -42,30 +42,6 @@ nav#site-navigation {
     margin-left: 0;
 }
 
-#colophon ul li {
-    z-index: 999;
-}
-
-#colophon div {
-    z-index: 998;
-}
-
-div.entery-content img {
-    z-index: 2100 !important;
-}
-
-.wp-block-image img {
-    z-index: 1100 !important;
-}
-
-div.wp-block-button {
-    z-index: 1100 !important;
-}
-
-.about-section img{
-    z-index:999;
-}
-
 h1.entry-title {
     font-family: dystopian, sans-serif, monospace !important;
 }
@@ -74,106 +50,105 @@ h1.page-title {
     font-family: dystopian, sans-serif, monospace !important;
 }
 
-div#page header#masthead div.site-header{
-    display:none;
+div#page header#masthead div.site-header {
+    display: none;
 }
 
-.about-section{
+.about-section {
     max-width: var(--responsive--alignwide-width);
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact-section{
+.contact-section {
     max-width: var(--responsive--alignwide-width);
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact-section p{
-padding-top: 40px;
+.contact-section p {
+    padding-top: 40px;
 }
 
 .contact-section ul {
     list-style: none;
 }
 
-nav #menu-secondary-menu{
-    padding:0;
+nav #menu-secondary-menu {
+    padding: 0;
 }
 
-nav #menu-secondary-menu li{
-    display:inline;
-    padding: 0 40px;
+nav #menu-secondary-menu li {
+    display: inline;
+    padding-right: 40px;
 }
 
-.about-section p{
+.about-section p {
     padding-top: 40px;
 }
 
-.about-section img{
-    width:100%;
+.about-section img {
+    width: 100%;
     max-height: 20em;
     object-fit: contain;
 }
 
-div.site-branding{
-    flex:1;
+div.site-branding {
+    flex: 1;
     text-align: left;
 }
 
-nav#site-navigation{
+nav#site-navigation {
     margin-left: auto;
 }
 
 /* Media querys */
- @media only screen and (min-width:1200px) {
+@media only screen and (min-width:1200px) {
 
-    div#page header#masthead div.site-header{
-       display:block;
-       flex:0.65;
-       align-items: center;
-       justify-content: center;
+    div#page header#masthead div.site-header {
+        display: block;
+        flex: 0.65;
+        align-items: center;
+        justify-content: center;
     }
 
-    .about-section{
-        display:flex;
+    .about-section {
+        display: flex;
     }
 
-    .about-section p{
+    .about-section p {
         padding: 0 40px;
         border-left: 3px solid white;
-        margin-left:40px;
+        margin-left: 40px;
     }
 
-    .contact-section{
-        display:flex;
+    .contact-section {
+        display: flex;
     }
 
-    .contact-section p{
+    .contact-section p {
         border-left: 3px solid white;
-        margin-left:40px;
+        margin-left: 40px;
         padding: 0 40px;
     }
 
-    nav #menu-secondary-menu li{
-        display:block;
-        padding:10px 0;
+    nav #menu-secondary-menu li {
+        display: block;
+        padding: 10px 0;
     }
+
     #masthead div {
         padding: 0;
         z-index: 1000;
     }
- }
+}
 
 .current-menu-item a:first-child {
     text-decoration: none !important;
     font-weight: bold;
 }
 
-#primary-menu-list li a,
-#primary-menu-list li a:hover,
-#primary-menu-list li a:focus {
+#primary-menu-list li a {
     text-decoration: none;
     color: white;
     text-shadow: none;
@@ -190,13 +165,7 @@ nav#site-navigation{
     text-shadow: -1px 1px 10px #ffc, 1px -1px 10px #fff;
 }
 
-aside.left-sidebar {
-    z-index: 1020 !important;
-}
-
-#menu-secondary-menu li a,
-#menu-secondary-menu li a:hover,
-#menu-secondary-menu li a:focus {
+#menu-secondary-menu li a {
     text-decoration: none;
     color: white;
     text-shadow: none;
@@ -211,4 +180,21 @@ aside.left-sidebar {
 #menu-secondary-menu li a:focus {
     color: #fff;
     text-shadow: -1px 1px 10px #ffc, 1px -1px 10px #fff;
+}
+
+#colophon li a svg {
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+    outline: 0 none;
+ }
+
+ #colophon li a svg:hover,
+ #colophon li a svg:focus {
+    color: #fff;
+    filter: drop-shadow(-1px 1px 5px #ffffff);
 }
