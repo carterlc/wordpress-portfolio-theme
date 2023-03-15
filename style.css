@@ -21,7 +21,6 @@ h2 {
 
 div.entry-content h2:nth-child(1) {
     font-size: clamp(6rem, 30vw + 1rem, 20rem) !important;
-    text-decoration: none;
     color: white;
     text-shadow: none;
     -webkit-transition: 500ms linear 0s;
