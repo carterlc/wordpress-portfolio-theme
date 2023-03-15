@@ -8,6 +8,10 @@ Template:     twentytwentyone
 Version:      1
 */
 
+#grainy-texture > * { 
+    position: relative !important;
+    z-index: 10 !important;
+}
 
 h2 {
     font-family: dystopian, sans-serif, monospace !important;
@@ -16,12 +20,10 @@ h2 {
 }
 
 div.entry-content h2:nth-child(1) {
-    background-color: red;
     font-size: clamp(6rem, 30vw + 1rem, 20rem) !important;
 }
 
 div.entry-content h2:nth-child(2) {
-    background-color: blue;
     font-size: clamp(1rem, 5vw + 1rem, 4rem) !important;
 }
 
@@ -38,11 +40,6 @@ div.entry-content h2:nth-child(2) {
 
 nav#site-navigation {
     margin-left: 0;
-}
-
-#masthead div {
-    padding: 0;
-    z-index: 1000;
 }
 
 #colophon ul li {
@@ -63,6 +60,10 @@ div.entery-content img {
 
 div.wp-block-button {
     z-index: 1100 !important;
+}
+
+.about-section img{
+    z-index:999;
 }
 
 h1.entry-title {
@@ -158,6 +159,10 @@ nav#site-navigation{
     nav #menu-secondary-menu li{
         display:block;
         padding:10px 0;
+    }
+    #masthead div {
+        padding: 0;
+        z-index: 1000;
     }
  }
 

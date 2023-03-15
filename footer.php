@@ -15,6 +15,7 @@
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- #content -->
+<
 <script>
 var options = {
     animate: true,
@@ -28,6 +29,7 @@ var options = {
 
 grained('#grainy-texture',options);
 </script>
+
 	<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 
 	<footer id="colophon" class="site-footer">

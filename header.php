@@ -22,6 +22,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div id="grainy-texture">
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
