@@ -15,7 +15,7 @@
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- #content -->
-<
+
 <script>
 var options = {
     animate: true,
