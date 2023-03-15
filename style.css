@@ -21,6 +21,14 @@ h2 {
 
 div.entry-content h2:nth-child(1) {
     font-size: clamp(6rem, 30vw + 1rem, 20rem) !important;
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+    outline: 0 none;
 }
 
 div.entry-content h2:nth-child(2) {
@@ -197,4 +205,9 @@ nav#site-navigation {
  #colophon li a svg:focus {
     color: #fff;
     filter: drop-shadow(-1px 1px 5px #ffffff);
+}
+
+div.entry-content h2:nth-child(1):hover,
+div.entry-content h2:nth-child(1):focus {
+    text-shadow: -1px 1px 10px rgba(255, 255, 204, 0.521), 1px -1px 50px #ffffff7e;
 }

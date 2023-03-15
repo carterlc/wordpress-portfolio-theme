@@ -19,7 +19,7 @@
 get_header();
 
 
-?>Front page.php look here
+?>
 
 <?php
 /* Start the Loop */
